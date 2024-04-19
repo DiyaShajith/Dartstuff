@@ -9,4 +9,5 @@ void main()
   double b=stdin.readLineSync();
   print("value of b=$b");
 
+
 }
