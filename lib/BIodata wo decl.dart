@@ -13,8 +13,8 @@ void main()
   print("Father Occupation :$occ");
   print("Enter Date of Birth :");
   var dt=stdin.readLineSync();
-  int date=int.parse(dt!);
-  print("Date-of-Birth :$date");
+  // int date=int.parse(dt!);
+  print("Date-of-Birth :$dt");
   print("Enter your Address :");
   var add=stdin.readLineSync();
   print("Address :$add");
