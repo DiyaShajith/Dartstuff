@@ -6,9 +6,9 @@ void main()
   var a=stdin.readLineSync();
   int num=int.parse(a!);
   if(num%2==0)
-    {
-      print("The number is even\n");
-    }
+  {
+    print("The number is even\n");
+  }
   else
   {
     print("The number is odd");
