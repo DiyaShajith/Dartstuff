@@ -15,7 +15,7 @@ void main(){
   double x2=60.2;
   print("value of x1:$x1");
   print("value of x2:$x2");
-  bool x1="true";
+  // bool x1="true";
 
 
 

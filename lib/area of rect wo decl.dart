@@ -10,7 +10,7 @@ void main()
   double width=double.parse(b!);
   double result=length*width;
   print("result is = $result");
-  print(a*b);
+  // print(a*b);
 
 
 
