@@ -17,14 +17,11 @@ void main()
       print("C is greatest :$num3\n");
     }
   }
-      else
-        {
-          if(num2>num3)
-            {
-              print("B is greatest : $num2\n");
-            }
-          else
-            {
-              print("C is greatest : $num3\n");
-            }
+      else {
+    if (num2 > num3) {
+      print("B is greatest : $num2\n");
     }
+    else {
+      print("C is greatest : $num3\n");
+    }
+  }
