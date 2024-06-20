@@ -1,11 +1,13 @@
 import 'dart:io';
 
 
-bool isPrime(int number) {
+bool isPrime(int number)
+{
   if (number <= 1) {
     return false;
   }
-  for (int i = 2; i <= number ~/ 2; i++) {
+  for (int i = 2; i <= number ~/ 2; i++)
+  {
     if (number % i == 0) {
       return false;
     }
@@ -14,7 +16,8 @@ bool isPrime(int number) {
 }
 
 
-bool SumOfTwoPrimes(int number) {
+bool SumOfTwoPrimes(int number)
+{
   for (int i = 2; i <= number ~/ 2; i++) {
     if (isPrime(i) && isPrime(number - i)) {
       print('$number = $i + ${number - i}');
@@ -24,13 +27,16 @@ bool SumOfTwoPrimes(int number) {
   return false;
 }
 
-void main() {
+void main()
+{
   print('Enter a number:');
   int? number = int.parse(stdin.readLineSync()!);
 
-  if (SumOfTwoPrimes(number)) {
+  if (SumOfTwoPrimes(number))
+  {
     print('$number can be expressed as the sum of two prime numbers.');
-  } else {
+  } else
+  {
     print('$number cannot be expressed as the sum of two prime numbers.');
   }
 }
