@@ -13,8 +13,8 @@ void main()
     {
       if(row<5)
         {
-
-        } stdout.write("$count   ");
+          stdout.write("$count   ");
+        }
      else
      {
         stdout.write("$count  ");
