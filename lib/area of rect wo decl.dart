@@ -11,7 +11,4 @@ void main()
   double result=length*width;
   print("result is = $result");
   // print(a*b);
-
-
-
 }
