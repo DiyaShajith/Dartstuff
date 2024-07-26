@@ -8,7 +8,7 @@ void main()
     }
     stdout.write("\n");
   }
-  for (var i = 0; i < 4; i++) {
+  for (var i = 0; i < 3; i++) {
     for (var s = 0; s < 4 - i - 1; s++) {
       stdout.write("  ");
     }

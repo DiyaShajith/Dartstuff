@@ -20,6 +20,8 @@ int firstMissingPos(List<int> nums) {
 }
 
 void main() {
-  List<int> arr = [3,4,-1,1];
-  print(firstMissingPos(arr));
+  var a=int.parse(stdin.readLineSync()!);
+
+  // List<int> arr = [3,4,-1,1];
+  // print(firstMissingPos(arr));
 }
