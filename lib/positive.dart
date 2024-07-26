@@ -22,6 +22,5 @@ int firstMissingPos(List<int> nums) {
 void main() {
   var a=int.parse(stdin.readLineSync()!);
 
-  // List<int> arr = [3,4,-1,1];
-  // print(firstMissingPos(arr));
+
 }
